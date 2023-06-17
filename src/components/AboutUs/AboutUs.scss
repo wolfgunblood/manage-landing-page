@@ -1,0 +1,53 @@
+.aboutus-container {
+    display: flex;
+
+    .aboutus-header {
+
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .aboutus-title {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 800;
+            color: hsl(228, 39%, 23%);
+        }
+
+        .aboutus-description {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            color: hsl(227, 12%, 61%);
+        }
+    }
+
+    .details-container {
+
+        .details-item {
+            display: flex;
+            align-items: flex-start;
+            .btn-index {
+                width: 80px;
+                padding: 0.8rem 1.5rem;
+                font-size: 12px;
+                font-weight: 400;
+
+                border: none;
+                outline: none;
+                background-color: hsl(12, 88%, 59%);
+                color: hsl(0, 0%, 98%);
+                border-radius: 50px;
+            }
+
+            .details-content{
+                display: flex;
+                flex-direction: column;
+                .deatils-title{
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+}
