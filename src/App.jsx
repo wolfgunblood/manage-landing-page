@@ -8,13 +8,15 @@ import Contact from './components/Contact/Contact';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Navbar />
-      <Hero />
-      <AboutUs />
-      <Testimonials />
+    <>
+      <div className='App'>
+        <Navbar />
+        <Hero />
+        <AboutUs />
+        <Testimonials />
+      </div>
       <Contact />
-    </div>
+    </>
   )
 }
 

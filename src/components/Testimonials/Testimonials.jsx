@@ -1,11 +1,12 @@
 import React from 'react';
 import test from '../../data/test';
 import GetStarted from '../GetStarted/GetStarted';
+import "./Testimonials.scss";
 
 const Testimonials = () => {
   return (
     <div className='testimonials-container'>
-        <h2>What they’ve said</h2>
+        <h2 className='testimonials-title'>What they’ve said</h2>
         <div className='testimonials'>
             {test.map((testimonial) => (
                 <div className='testimonial' key={testimonial.id}>
