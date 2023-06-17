@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Navbar.scss";
 import Logo from "../../assets/images/logo.svg";
+import GetStarted from '../GetStarted/GetStarted';
 
 const Navbar = () => {
     return (
@@ -15,7 +16,7 @@ const Navbar = () => {
                 <li className='nav-item'>Careers</li>
                 <li className='nav-item'>Community</li>
             </ul>
-            <button className='get-started-btn'>Get Started</button>
+            <GetStarted />
         </div>
     )
 }
