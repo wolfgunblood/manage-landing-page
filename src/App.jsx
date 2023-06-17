@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./App.scss"
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='App'>
+      <Navbar />
+    </div>
   )
 }
 
