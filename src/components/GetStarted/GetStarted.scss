@@ -9,4 +9,10 @@
     background-color: hsl(12, 88%, 59%);
     color: hsl(0, 0%, 98%);
     border-radius: 50px;
+    transition: 0.2s all ease-in-out;
+
+    &:hover{
+        background-color: hsl(13, 100%, 96%);
+        color: hsl(12, 88%, 59%);
+    }
 }
