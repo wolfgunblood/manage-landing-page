@@ -1,11 +1,12 @@
 import React from 'react'
-import GetStarted from '../GetStarted/GetStarted'
+import GetStarted from '../GetStarted/GetStarted';
+import "./Contact.scss"
 
 const Contact = () => {
   return (
-    <div className='coontact-container'>
+    <div className='contact-container'>
         <h3 className='contact-title'> Simplify how your team works today.</h3>
-        <GetStarted />
+        <button className='custom-button'>Get Started</button> 
     </div>
   )
 }
