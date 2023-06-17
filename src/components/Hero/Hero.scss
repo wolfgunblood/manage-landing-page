@@ -1,0 +1,24 @@
+.hero-container{
+    display: flex;
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px;
+        .hero-content-title{
+            margin: 0;
+            font-size: 48px;
+        }
+        .hero-content-description{
+            margin: 0;
+            font-size: 16px;
+        }
+    }
+    .hero-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
