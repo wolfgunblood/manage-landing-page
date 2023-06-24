@@ -9,15 +9,18 @@
         gap: 32px;
         .hero-content-title{
             margin: 0;
+            width: 60%;
             font-size: 48px;
             font-weight: 800;
             color: hsl(228, 39%, 23%);
         }
         .hero-content-description{
+            width: 70%;
             margin: 0;
             font-size: 16px;
             font-weight: 400;
             color: hsl(227, 12%, 61%);
+            line-height: 1.5;
         }
     }
     .hero-image{

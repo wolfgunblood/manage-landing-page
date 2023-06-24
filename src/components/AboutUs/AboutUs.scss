@@ -12,13 +12,16 @@
             font-size: 32px;
             font-weight: 800;
             color: hsl(228, 39%, 23%);
+            width: 70%;
         }
-
+        
         .aboutus-description {
+            width: 70%;
             margin: 0;
             font-size: 16px;
             font-weight: 400;
             color: hsl(227, 12%, 61%);
+            line-height: 1.5;
         }
     }
 
@@ -62,10 +65,11 @@
 
 
                 .details-description {
-                    flex: 1;
+                    width: 70%;
                     font-size: 12px;
                     margin: 0;
                     color: hsl(227, 12%, 61%);
+                    line-height: 1.8;
                 }
             }
         }
