@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/wolfgunblood/manage-landing-page)
-- Live Site URL: [Add live site URL here](https://wolfgunblood.github.io/manage-landing-page/)
+- Solution URL: [Solution Repository](https://github.com/wolfgunblood/manage-landing-page)
+- Live Site URL: [Live Demo](https://wolfgunblood.github.io/manage-landing-page/)
 
 ## My process
 
