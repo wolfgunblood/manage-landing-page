@@ -134,3 +134,20 @@
         }
     }
 }
+
+@media screen and (max-width:375px){
+    .footer-container{
+        .contact-container{
+            flex-direction: column;
+            gap: 12px;
+            padding: 1rem;
+
+        }
+
+        .footer{
+            flex-direction: column;
+            gap: 12px;
+            padding: 1rem;
+        }
+    }
+}

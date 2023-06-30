@@ -43,3 +43,11 @@
 
     }
 }
+
+@media screen and (max-width:375px){
+    .testimonials-container{
+        .testimonials{
+            flex-direction: column;
+        }
+    }
+}

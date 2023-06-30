@@ -23,3 +23,18 @@
 
     
 }
+
+@media screen and (max-width:375px){
+
+    .nav-container{
+
+        .nav-list{
+            
+            display: none;
+        }
+    }
+
+    .nav-btn{
+        display: none;
+    }
+}
